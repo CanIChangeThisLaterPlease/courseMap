@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">courseMap</string>
+    <string name="course_map">Course Map</string>
+    <string name="logo">Logo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">or</string>
+    <string name="register">Register</string>
+    <string name="university_year">University Year</string>
+    <string name="enter_completed_courses">Enter Completed Courses</string>
+    <string name="view_suitable_study_plan">View Suitable Study Plan</string>
+    <string name="view_study_plan">View Study Plan</string>
+    <string name="update_study_plan">Update Study Plan</string>
+    <string name="finish">Finish</string>
+    <string-array name="major_options">
+        <item>Computer Science</item>
+        <item>Information Systems</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "377364228504",
+    "project_id": "studyadvisor-jaser",
+    "storage_bucket": "studyadvisor-jaser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377364228504:android:ce8da9b7345d2e7ebce3ed",
+        "android_client_info": {
+          "package_name": "com.example.coursemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377364228504-fcr4gkr11nvnqbvs3li2gk7q9paumc6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3M_hjhlnUfDFAfoOBVShMK7bneH_GETM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377364228504-fcr4gkr11nvnqbvs3li2gk7q9paumc6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

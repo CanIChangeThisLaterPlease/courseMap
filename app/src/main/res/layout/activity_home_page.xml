@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomePage"
+    android:background="#eaffd6">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:text="@string/course_map"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="211dp"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="16dp"
+        android:background="#eaffd6">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/updatePlanCard"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:clickable="true"
+            android:background="#eaffd6"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#eaffd6"
+                android:contentDescription="@string/update_study_plan"
+                android:src="@drawable/laptop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/update_study_plan"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:padding="16dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 2: View Study Plan -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/viewPlanCard"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#eaffd6">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eaffd6"
+                android:contentDescription="@string/view_study_plan"
+                android:src="@drawable/bag" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/view_study_plan"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:padding="16dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 3: View Suitable Study Plan -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/viewSuitablePlanCard"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#eaffd6">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eaffd6"
+                android:contentDescription="@string/view_suitable_study_plan"
+                android:src="@drawable/books" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/view_suitable_study_plan"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:padding="16dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 4: Enter Completed Courses -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/enterCompletedCard"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#eaffd6">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eaffd6"
+                android:contentDescription="@string/enter_completed_courses"
+                android:src="@drawable/hat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_completed_courses"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:padding="16dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+
+</LinearLayout>
